@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <figure>
+            <div class="fixed">
          <!-- Required meta tags -->
          <meta charset="utf-8">
          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
          <title>Takes A Village</title>
+          <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Koulen&display=swap" rel="stylesheet">
-<link rel="stylesheet"  type="text/css"  href="css/index.css">
+         <link rel="stylesheet"  type="text/css"  href="CSS/style.css">
 
      </head>
 
      <body>
+    
+
        <section class="intro">
          <div class="inner">
              <div class="content">
@@ -22,91 +28,115 @@
                        
                         <header class="navigation">
                       
-                          <div class="logo inline-block">
-                        
-                             <img src="Images/logo.png">
-                       
-                         
-                          <nav>                      
-                          
-                              <ul>
-                           
-                                <li class="inline-block" href="#">Home</li>
-                                <li class="inline-block" href="#">LogIn</li>
-                                <li class="inline-block" href="#">Signup</li>
-                              </ul>
-                          </nav>
+                            <nav class="navbar navbar-expand-md navbar-light bg-light sticky top">
+                                <div class="container-fluid">
+                                  <a class="navbar-brand" href="#"><img src="Images/logo.png"></a>
+                  
+                                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                  
+                                <div class="collapse navbar-collapse" id="navbarResponsive">
+                                    <ul class="navbar-nav ml-auto">
+                                      <li class="nav-item active">
+                                        <a class="nav-link" href="#">Home</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Login</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Sign Up</a>
+                                      </li>
+                                    </ul>
+                                </div>
+                            </nav>
                         </header>
                     </div>
-                    <!-- My UX Skills section coded using CSS flex-->
-          <section class="mySkills">
-            <h2>My UX Skills</h2>
+                    
+                    
+                <!--2 column-->  
+                <div class="container-fluid padding">
+                    <div class="row padding">
+                         <div class="col-md-12 col-lg-6">
+                            <h2 class="text-center">What if there was a community of experts available to answer questions and mentor you on home repairs and home renovation projects...</h2>
+                            <hr class="light">
+                            <p class="text-center">Introducing the Takes a Village mobile app</p>
+                            <p class="text-center">Just like sitting around with family and friends discussing the important things in life,</p>
+                            <p class="text-center">Everyone sharing in the conversation and sharing their knowledge and expertise.</p>
+                         </div>
+                    <div class="col-lg-6">
+                          <img src="/Images/women visiting.jpg" class="img-fluid">
+                    </div>
 
-          <div id="flexContainer">
-                   
-              <div class="flex-item">
-                <img src="./Images/search-alt.png" alt="icon with magnifying glass over bottom right corner of document" width="50" height="50" class="skillImage1">
-                <h4>User Research</h4>
-                <p>This div will have details about user research and testing</p>
-              </div>
 
-              <div class="flex-item">
-                <img src="./Images/pencil-paintbrush.png" alt="icon picture of pencil and paintbrush" width="50" height="50" class="skillImage1">
-                <h4>User Interface & Visual Design</h4>
-                <p>This div will have details about the choices of design elements and animations.</p>
-              </div>
-          
-              <div class="flex-item">
-                  <img src="./Images/display-code.png" alt="icon picture of computer with coding symbol" width="50" height="50" class="skillImage1">
-                  <h4>Front-End Development</h4>
-                  <p>This div will have details about coding skills used and proficiencies.</p>
-              </div>
-          
-            </div>
-        </section>
 
-      <!--My Work Section Constructed using CSS Grid-->
-        <section class="myWork">
-            <h2>My Work</h2>             
-          
-          <div class="workGrid">
-                
-              <div>
-                <img src="./Images/Splash (3).png" alt="picture of phone tilted showing homepage of RealUSA Travel App" width="150" height="350">
-              </div>
+                    </div>
 
-              <div>
-                <h4>RealUSA Travel Planning App</h4>
-                <p>Travel planning app lets you plan your vacation destination, lodging, and activities. Three simple steps guide you through the process. Multiple payment options are offered to allow the user to make one quick & easy payment.</p>                              
-                <button type="button" style="background-color: #98E1E1; width: 300px; height: 40px; border-radius: 5px"> <a href="https://rlynn08.github.io/UX_UI_HW_20/">View Project</a></button>
-              </div>
-          
-                  
-              <div>
-                <img class="img-greenway" src="./Images/Greenway.png" alt="picture showing simulation of computer with Midtown Greenway Coalition" width="200" height="350">
-              </div>  
-              
-              <div>
-                <h4>MidTown Greenway Coalition</h4>
-                <p>This non-profit website redesign is focused on the three top priorities of the Midtown Greenway Coalition: donations, volunteering, maps/route closures, and detour options</p>
-                  <button type="button" style="background-color: #98E1E1; width: 300px; height: 40px; border-radius: 5px">View Project</button>
-              </div>
 
-              <div>
-                <img src="./Images/graphic-style.png" alt="This is a placeholder for final Boot camp project photo" width="200" height="350">
-              </div>
-              
-              <div>
-                <h4>Final Boot Camp Project</h4>                  
-                <p>Final Boot Camp project description</p>
-                <button type="button" style="background-color: #98E1E1; width: 300px; height: 40px; border-radius: 5px">View Project</button>
-              </div>
-          </div>
-        </section>                       
+
                 </div>
-             </div>
-         </div>
-       </section>
+               </div>
+            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <section class="diyWork">
+                        <h2 class="text-center">Our experts are here to help you with all the projects you can conceive of.</h3>
+            
+                                           
+                    <!--Cards-->
+                          <div class="container-fluid padding">
+                            <div class="row padding">
+                                <div class="col-md-4">
+                                   <div class="card">
+                                       <img class="card-img-top" src="Images/painting wall.jpg" width="50" height="200">
+                                       <div class="card-body">
+                                          <h6 class="card-title">Show your creativity</h6>
+                                          <p class="card-text">Whether you want to paint a wall or just a design to showcase your creativity...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-4">   
+                                    <div class="card">
+                                        <img class="card-img-top" src="Images/kitchen-6916199_640.jpg" width="50" height="200">
+                                        <div class="card-body">
+                                           <h6 class="card-title">Kitchen Remodel</h6>
+                                           <p class="card-text">Install new cabinets and appliances to refresh the look of your kitchen...</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                    
+                              
+                                <div class="col-md-4">   
+                                    <div class="card">
+                                        <img class="card-img-top" src="Images/basement-remodeling-7900109_640.jpg" width="50" height="200">
+                                        <div class="card-body">
+                                           <h6 class="card-title">Basement Remodel</h6>
+                                           <p class="card-text">or turn a long-neglected basement into a welcoming living space.</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                    </section>
+                </figure>
+          
+
+     
+              
+             
 
                
                                         
@@ -139,10 +169,10 @@
       <div class="row text-center">
 
         <div class="col-md-4">
-          <img src="Images_casestudy/Logo.png">
+          <img src="Images/logo.png"/>
           <hr class="light">
-          <p>(336)-200-1335</p>
-          <p>robin@rmbolton.com</p>
+          <p></p>
+          <p>Takes a Village</p>
         </div>
 
         <div class="col-md-4">
@@ -188,7 +218,6 @@
    </div>
  </body>
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
- <script src="js/index.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

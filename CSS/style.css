@@ -3,180 +3,63 @@
     padding: 0;
 }
 
-html {
-    position: relative;
-    min-height: 100%;
-}
 
-body {
-    margin: 0 0 100px;
-    height: 100%;
- }
-
- .content h1 {
-    font-family: "koulen" sans-serif;
-    color: #E4954D;
-    text-shadow: 0px 0px 300px #000;
-    font-size: 500%;
-}
- 
-#container {
-    min-height: 100%;
-}
-
-#main {
-    overflow: auto;
-    padding-bottom: 100px;
-    background-color: black;
-    height: auto;
-}
-
-.logo {
-    display: inline-block;
-    width: 30%;
-    padding: 1%;
-    text-align: center;
-    position: fixed;
-    margin-top: 20px;
-    margin-left:-90px;
-   }
-  
-   img {
-    margin-left: 100px;
-    margin-top: 20px;
-   }
-   
-
-.intro {
+html, body {
     height: 100%;
     width: 100%;
-    margin: auto;
-    background: url("https://pixabay.com/photos/wood-board-structure-boards-grain-591631/");
-    display: table;
-    top: 0;
-    background-size: cover;
-  
 }
 
-.intro .inner {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    max-width: none;
+.fixed {
+    background-image: url(/Images/parquet-583691_1280.jpg);
 }
-
-.content {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-
-.navigation {
-    background-color: #000000 !important;
-    z-index: 999;
- }
-
-.inline-block {
-   display: inline-block;
-   margin-right: 25px;
-   }
-
-.inline-block a:hover {
-   background-color:#98E1E1;
-   }
-
-   nav {
-    background-color: #000000 !important;   
-}
-nav ul {
-   text-align: right;
-   color: #C399E3;
-    width: 50%;
-    margin-right: auto;
-    padding: 1%;
-    top: 50px;
-    position: fixed;
-    right: 10px;
-    list-style: none;
-    }
-
-    nav li {
-        display: inline-block;
-        text-align: right;
-        font-family: 'Berkshire Swash', cursive;
-        margin-right: 10px;       
-        margin-top: 75px;
-        position: sticky;
-    }
-
-.inline-block a{
-    text-decoration: none;
-}
-
-.contactImage {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    }
-
-#closeModal {
-    position: absolute;
-   }
-
-.heroImg {
-        max-width: 98%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom:20px;
-        padding: 1%;
-        margin-top: 300px;      
-}              
-
-.box {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 64px;
-    text-align: center;
-    padding-top: 50px;
-    height: 200px;
-    background-color: #C399E3;
-}
-
-
-h1 {
-    display:inline-block;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 64px;
-    text-align: center;
+.padding {
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 h2 {
-    display:inline-block;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 48px;
-    margin-top: 200px;
-    text-align: center;
-    color:#C399E3;
+    font-family: "koulen", sans-serif;
+    color: #000;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-family: "abhaya-libre", sans-serif;
+    color: #000;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+
+
+ .content h1 {
+    font-family: "koulen" sans-serif;
+    color: #000;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 200%;
+}
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
     
-}
 
-.content {
-   
-    width: 600px;
-    margin-top: 20x;
-    margin-left: 25%;
-    text-align: center;
-    font-size: 30px;
-    color: #C399E3;
-}
 
-p {
-    display: flex;
-    justify-content: center;
-    margin-top:50px;
-    margin-bottom: 50px;
-}
+
+
+
 
 #flexContainer {
     display: flex;
@@ -240,6 +123,7 @@ h4 {
     margin-right: 100px;
     grid-template-areas: "my area";
     background-color: #C399E3;
+}
     
 
  
@@ -267,8 +151,8 @@ h4 {
 }
 
 p {
-    font-size: 160%;
-    line-height: 210%;
+    font-size: 16px;
+    line-height: 21px;
     text-align: justify;
-    font-family: sans-serif
+    font-family: "koulen", sans-serif;
 }
