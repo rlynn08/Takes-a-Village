@@ -4,17 +4,25 @@
 }
 
 
-html, body {
+ body {
     height: 100%;
     width: 100%;
 }
 
-.fixed {
-    background-image: url(/Images/graytexture.png);
+
+.backgroundImage {
+    background-image: url(/Images/parquet-583691_1280.jpg);
 }
+
 .padding {
     margin-top: 3em;
     margin-bottom: 3em;
+}
+
+h1 {
+    font-family: "koulen", sans-serif;
+    color: #000;
+    margin-top: 2em;
 }
 
 h2 {
@@ -30,8 +38,12 @@ h3 {
     margin-top: 2em;
     margin-bottom: 1em;
 }
-
-
+ .text-center {
+    font-family: "abhaya-libre", sans-serif;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 1em;
+ }
 
  .content h1 {
     font-family: "koulen" sans-serif;
@@ -39,7 +51,9 @@ h3 {
     font-size: 200%;
 }
  
-
+.light {
+    color: #E4954D;
+}
 
 
 
