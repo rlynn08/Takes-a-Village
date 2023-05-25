@@ -10,7 +10,7 @@ html, body {
 }
 
 .fixed {
-    background-image: url(https://pixabay.com/illustrations/wall-bricks-template-structure-2933017/);
+    background-image: url(/Images/graytexture.png);
 }
 .padding {
     margin-top: 3em;
@@ -19,14 +19,14 @@ html, body {
 
 h2 {
     font-family: "koulen", sans-serif;
-    color: #000;
+    color: #E4954D;
     margin-top: 2em;
     margin-bottom: 1em;
 }
 
 h3 {
     font-family: "abhaya-libre", sans-serif;
-    color: #000;
+    color: #E4954D;
     margin-top: 2em;
     margin-bottom: 1em;
 }
@@ -36,7 +36,6 @@ h3 {
  .content h1 {
     font-family: "koulen" sans-serif;
     color: #000;
-    text-shadow: 0px 0px 300px #000;
     font-size: 200%;
 }
  
